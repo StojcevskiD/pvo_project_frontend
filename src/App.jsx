@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 
 const App = () => {
 	const SERVER_PORT = 5001;
-	const SERVER_URL = `https://localhost:${SERVER_PORT}`;
+	const SERVER_URL = `https://pvoprojectbackend.azurewebsites.net`;
 	const [selectedFile, setSelectedFile] = useState(null);
 	const [message, setMessage] = useState(null);
 	const linkRef = useRef(null);
